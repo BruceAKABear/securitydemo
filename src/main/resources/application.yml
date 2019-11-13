@@ -1,0 +1,13 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: securitydemo
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/research?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2b8&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  type-aliases-package: pro.dengyi.securitydemo.model
+debug: false
