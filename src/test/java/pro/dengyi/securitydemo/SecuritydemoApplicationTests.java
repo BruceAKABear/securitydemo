@@ -13,7 +13,6 @@ class SecuritydemoApplicationTests {
     @Test
     void contextLoads() {
         String encode = bCryptPasswordEncoder.encode("123456");
-
         System.out.println(encode);
 
     }
